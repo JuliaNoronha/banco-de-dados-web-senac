@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/canadanature-1920x1080.jpg);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+nav {
+    width: 30rem;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+section {    
+    padding: 2rem;
+    margin-top: 20px;
+    width: 25rem;
+    background: rgba(255, 255, 255, 0.5);
+}
+#home {
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    width: 100%;
+    outline: 0;
+}
+table {
+    padding: 1rem;
+    color: rgb(30, 32, 33);
+    width: 100%;
+    border: 0;
+}
+table th {
+    background: linear-gradient(rgb(49, 82, 107), rgba(255, 255, 255, 0.7));
+}
+table tr {
+    background: rgba(255, 255, 255, 0.7);
+}
+table tr:nth-child(even) {
+    
+    background: rgba(101, 104, 106, 0.7);
+}
+table tr td {
+    padding: 0.3rem;
+}
+.registros {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+}
